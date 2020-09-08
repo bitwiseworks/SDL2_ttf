@@ -1,0 +1,14 @@
+#files form autoreconf -vfi
+
+aclocal.m4
+config.guess
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+missing
+
+OPYING
+INSTALL
+autom4te.cache/
