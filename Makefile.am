@@ -38,6 +38,8 @@ libSDL2_ttf_la_LDFLAGS = 	\
 endif
 libSDL2_ttf_la_LIBADD = @MATHLIB@
 
+libSDL2_ttf_la_LDFLAGS += -shortname SDL2T
+
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = SDL2_ttf.pc
 
